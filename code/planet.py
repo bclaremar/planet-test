@@ -30,6 +30,7 @@ y[0]=y0;
 u=u0;
 v=v0;
 
+#Time iteration of the postion of Earth
 for i in range(1,365*L):    
     print(i)
     x[i]=x[i-1]+day*u;
